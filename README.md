@@ -1,7 +1,7 @@
 ## Deployed project
 http://git-scm.osmancalisir.com/memorygame/
 
-## What inbuilt functions are we going to focus on?
+## What in built functions are we going to focus on?
 - for loops
 - addEventListener
 - setAttribute
