@@ -76,14 +76,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
     if (cardsChosen[0] === cardsChosen[1]) {
-      alert('You found a match')
+      console.log('You found a match')
       cards[optionOneId].setAttribute('src', 'images/white.png')
       cards[optionTwoId].setAttribute('src', 'images/white.png')
       cardsWon.push(cardsChosen)
     } else {
       cards[optionOneId].setAttribute('src', 'images/blank.png')
       cards[optionTwoId].setAttribute('src', 'images/blank.png')
-      alert('Sorry, try again')
+      console.log('Sorry, try again')
     }
     cardsChosen = []
     cardsChosenId = []
