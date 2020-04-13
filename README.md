@@ -1,4 +1,4 @@
-##Deployed project
+## Deployed project
 http://git-scm.osmancalisir.com/memorygame/
 
 ## What inbuilt functions are we going to focus on?
